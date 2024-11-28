@@ -6,6 +6,7 @@
 
 import React from "react";
 
+import Education from "./Components/Education";
 import About from "./Components/About";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
@@ -39,6 +40,7 @@ const App = () => {
     <div id="main">
       <Header />
       <Home name={siteProps.name} title={siteProps.title} />
+      <Education />
       <About />
       <Portfolio />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
