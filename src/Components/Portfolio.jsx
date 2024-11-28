@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/hugo-profile.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,16 +31,16 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "CRUD API Laravel  🎉",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Created an API in Laravel to perform processes such as CRUD operations.",
+    url: "https://github.com/hugofriasmtz/api-store",
   },
   {
-    title: "Web Development for Beginners",
+    title: "PWA Resume",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "My first PWA with my resume.",
+    url: "https://github.com/hugofriasmtz/pwa-hugo",
   },
   {
     title: "My Resume Site",
@@ -49,10 +49,10 @@ const projectList = [
     url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "My GitHub Profile",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "My GitHub portal where everyone can see the work I have done throughout my career.",
+    url: "https://github.com/hugofriasmtz",
   },
 ];
 
